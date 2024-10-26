@@ -13,4 +13,6 @@ Your task is to create a classifier capable of predicting whether an image conta
 - **test/** - Directory containing the test set images (you need to predict the labels for these).
 - **train.csv** - CSV file with training set labels, indicating whether an image contains a cactus (`has_cactus = 1`).
 
+## Metrics
 
+For this challenge, you are required to define an appropriate metric. You face a binary classification problem, but at this stage you do not know if your data is balanced. Throughout your work, especially the data analysis part, you will first need to characterize your data, and then come up with a valid performance metric to assess the quality of your model. 
